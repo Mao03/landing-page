@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LandingPage Home</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work Sans">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <style type="text/css">
+        /* body {
+            
+        } */
+        h1,h2,h3,h4,h5,h6 {
+            font-weight: bold;
+        }
+        .row {
+            padding: 40px 0px;
+        }
+        button {
+            margin: 16px 0px;
+            box-sizing: border-box;
+            width: 170px;
+            height: 48px;
+        }
+        .navbar {
+            background-color: #74C69D;
+            padding: 25px 0px;
+        }
+        .navbar-nav {
+            gap: 20px;
+        }
+        .navbar-nav .nav-item .nav-link {
+            color: #FFFFFF;
+            opacity: 1;
+        }
+        .navbar-brand {
+            font-family: "Work Sans";
+        }
+        .navbar button {
+            width: initial;
+            height: initial;
+            margin: 16px 0px;
+        }
+        footer p {
+            color: #FFFFFF;
+            margin: 0;
+        }
+        footer .social-medias {
+            display: flex;
+            justify-content: start;
+            gap: 20px;
+        }
+        .banner {
+            background-color: #74C69D;
+            color: #FFFFFF;
+        }
+        .banner .col-md-5 {
+            padding-right: 120px;
+        }
+        .banner h6 {
+            font-size: 16px;
+        }
+        .mid_bar h6 {
+            color: #74C69D;
+        }
+        .mid_bar button {
+            margin: 0px;
+        }
+        .partners_logo {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 55px 0px;
+        }
+        .mid {
+            margin:auto;
+        }
+        .mid .col {
+            padding: 35px 0px;
+            margin: auto;
+        }
+        .mid .text-1 {
+            padding-left: 110px;
+        }
+        .mid .text-2 {
+            padding-right: 110px;
+        }
+        .bottom_bar {
+            justify-content: space-around;
+        }
+        .bottom_bar h6 {
+            color: #74C69D;
+        }
+        .card {
+            padding: 25px 15px 0px 15px;
+            box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+            margin: 20px 0px;
+        }
+        .card h5 {
+            padding: 20px 0px;
+        }
+        .card-body h5+p {
+            opacity: 50%;
+        }
+        .card-body {
+            text-align: left;
+            padding: 0;
+        }
+        .card img {
+            border: black 1px solid;
+            border-radius: 50%;
+        }
+        .op_50 {
+            opacity: 50%;
+        }
+        .op_75 {
+            opacity: 75%;
+        }
+        @media screen and (max-width:768px) {
+            .banner .col-md-5 {
+                padding-right: 12px;
+            }
+            .mid_bar img {
+                display: block;
+                width: 50%;
+            }
+            .mid .text-1 {
+                padding-left: 0px;
+            }
+            .mid .text-2 {
+                padding-right: 0px;
+            }
+            .partners_logo {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 40px;
+            }
+            footer .container {
+                flex-direction: column;
+                gap: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    
+    <nav class="navbar navbar-dark navbar-expand-md">
+        <div class="container">
+            <a href="/home.html" class="navbar-brand">
+                <img src="/images/images/Group 1.svg" " width="30" height="24" class="d-inline-block align-text-top">  Start
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="/home.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/portfolio.html">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/services.html">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/contact.html">Contact</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid banner">
+        <div class="container">
+            <div class="row">
+                <div class="col col-md-5 col-12">
+                    <h6>W E L C O M E</h6>
+                    <h3>Lorem ipsum dolor sit amet consectetur</h3>
+                    <p class="op_75">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?</p>
+                    <button class="btn btn-light">Expolre</button>
+                </div>
+                <div class="col col-md-7 col-12">
+                    <img class="img-fluid" src="/images/images/Group.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row mid_bar text-center">
+            <div class="col col-md-12">
+                <h6>P A R T N E R S</h6>
+                <h3>Lorem Ipsum Dolor</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit.</p>
+                <div class="partners_logo">
+                    <img class="img-fluid" src="/images/images/XMLID_24_.svg" alt="">
+                    <img class="img-fluid" src="/images/images/XMLID_1_.svg" alt="">
+                    <img class="img-fluid" src="/images/images/XMLID_1_ (1).svg" alt="">
+                    <img class="img-fluid" src="/images/images/Group (1).svg" alt="">
+                    <img class="img-fluid" src="/images/images/XMLID_1_ (2).svg" alt="">
+                </div>
+                
+                <button class="btn btn-dark">Learn More</button>
+            </div>
+        </div>
+        <div class="row mid">
+            <div class="col col-md-6 col-12">
+                <img class="img-fluid" src="/images/images/Group (2).svg" alt="">
+            </div>
+            <div class="col col-md-6 col-12 text-1">
+                <h3>Lorem ipsum dolor sit amet consectetur </h3>
+                <p class="op_50">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?</p>
+                <button class="btn btn-dark">Learn More</button>
+            </div>
+            <div class="col col-md-6 col-12 text-2">
+                <h3>Lorem ipsum dolor sit amet consectetur </h3>
+                <p class="op_50">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?</p>
+                <button class="btn btn-dark">Learn More</button>
+            </div>
+            <div class="col col-md-6 col-12">
+                <img class="img-fluid" src="/images/images/Group (3).svg" alt="">
+            </div>
+        </div>
+        <div class="row bottom_bar text-center">
+            <div class="col col-md-12">
+                <h6>T E A M</h6>
+                <h3>Our Talents</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur
+                    Suscipit nemo hic quos, ab,</p>
+            </div>
+            <div class="col col-md-2 col-12 card">
+                <img src="/images/images/Mask group.svg" alt="">
+                <div class="card-body">
+                    <h5>Peg Legge</h5><p>CEO</p>
+                </div>
+            </div>
+            <div class="col col-md-2 col-12 card">
+                <img src="/images/images/Group 15.svg" alt="">
+                <div class="card-body">
+                    <h5>Richard Guerra</h5><p>CTO</p>
+                </div>
+            </div>
+            <div class="col col-md-2 col-12 card">
+                <img src="/images/images/Mask group (1).svg" alt="">
+                <div class="card-body">
+                    <h5>Alexandra Stolz</h5><p>DESIGNER</p>
+                </div>
+            </div>
+            <div class="col col-md-2 col-12 card">
+                <img src="/images/images/Mask group (2).svg" alt="">
+                <div class="card-body">
+                    <h5>Janet Bray</h5><p>DEVELOPER</p>
+                </div>
+            </div>
+            <div class="col col-md-12">
+                <button class="btn btn-dark">View Team</button>
+            </div>
+        </div>
+    </div>
+    <footer class="navbar navbar-light">
+        <div class="container">
+            <div class="social-medias">
+                <a href="#">
+                    <img src="/images/images/Group 33.svg">
+                </a>
+                <a href="#">
+                    <img src="/images/images/Group 34.svg">
+                </a>
+                <a href="#">
+                    <img src="/images/images/Group 35.svg">
+                </a>
+                <a href="#">
+                    <img src="/images/images/Group 36.svg">
+                </a>
+                <a href="#">
+                    <img src="/images/images/Group 37.svg">
+                </a>
+                <a href="#">
+                    <img src="/images/images/Group 38.svg">
+                </a>
+                <a href="#">
+                    <img src="/images/images/Group 39.svg">
+                </a>    
+            </div>
+            <div class="nav">
+                <p>© Start, 2022. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
